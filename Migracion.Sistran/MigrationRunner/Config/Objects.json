@@ -1,0 +1,16 @@
+{
+  "Objects": [
+    {
+      "Name": "Clientes",
+      "Type": "Table",
+      "RutaScript": "Scripts\\dboClientes.sql",
+      "ETLName": "ClientesETL"
+    },
+    {
+      "Name": "Polizas",
+      "Type": "Table",
+      "RutaScript": "Scripts\\dboPolizas.sql",
+      "ETLName": "IntegracionPolizas"
+    }
+  ]
+}

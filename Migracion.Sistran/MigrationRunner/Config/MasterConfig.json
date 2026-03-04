@@ -1,0 +1,4 @@
+{
+  "SourceDatabase": "Server=SERVIDOR_ORIGEN;Database=BD_Origen;User Id=usuario;Password=contraseña;",
+  "DestinationDatabase": "Server=SERVIDOR_DESTINO;Database=BD_Destino;User Id=usuario;Password=contraseña;"
+}
