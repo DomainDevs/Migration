@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

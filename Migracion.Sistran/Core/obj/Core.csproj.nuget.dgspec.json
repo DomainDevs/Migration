@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Core\\Core.csproj": {}
+    "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Core\\Core.csproj": {
+    "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Core\\Core.csproj",
+        "projectPath": "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Devs\\Core\\SISTRAN\\MIGRACION\\Migracion.Sistran\\Core\\obj\\",
+        "outputPath": "C:\\Devs\\Core\\SISTRAN\\MIG\\Migracion.Sistran\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

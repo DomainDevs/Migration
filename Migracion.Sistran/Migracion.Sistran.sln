@@ -13,11 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{C0289998-4286-404E-ABE2-618DABB4FCC7}"
 EndProject
-Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "IntegracionPolizas", "IntegracionPolizas\IntegracionPolizas.dtproj", "{E55D9E25-5571-E0F2-2A99-A4C5C023B0E3}"
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "IntegracionSISE", "IntegracionPolizas\IntegracionSISE.dtproj", "{E55D9E25-5571-E0F2-2A99-A4C5C023B0E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EAA56BC5-F445-4886-860B-64406ECAF6C1}"
 	ProjectSection(SolutionItems) = preProject
-		dboPolizas.sql = dboPolizas.sql
+		Script\dboPolizas.sql = Script\dboPolizas.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logs", "Logs", "{7ED95179-0946-40C4-AE9E-6DC8C3BBE77A}"
