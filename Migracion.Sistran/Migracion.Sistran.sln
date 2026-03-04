@@ -17,7 +17,8 @@ Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "IntegracionSISE", "Integrac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EAA56BC5-F445-4886-860B-64406ECAF6C1}"
 	ProjectSection(SolutionItems) = preProject
-		Script\dboPolizas.sql = Script\dboPolizas.sql
+		Script\dbo.PolizaRiesgos.sql = Script\dbo.PolizaRiesgos.sql
+		Script\dbo.Polizas.sql = Script\dbo.Polizas.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logs", "Logs", "{7ED95179-0946-40C4-AE9E-6DC8C3BBE77A}"

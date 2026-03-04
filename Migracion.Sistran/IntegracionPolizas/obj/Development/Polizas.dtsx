@@ -11,11 +11,21 @@
   DTS:LocaleID="8192"
   DTS:ObjectName="Polizas"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{BB4128CB-0C87-4F79-B639-C22093F0A101}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{DE327D9C-E1A2-4575-9EA2-A0DD920328EA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[dbo.Polizas.sql]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{B65722E7-C83B-4375-B71A-1A419450F10F}"
+      DTS:ObjectName="dbo.Polizas.sql">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Devs\Core\SISTRAN\MIG\Migracion.Sistran\Script\dbo.Polizas.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[dboPolizas.sql]"
       DTS:CreationName="FILE"
@@ -37,7 +47,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqeJUbC8LZ0KU9DBioXLbfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACm5meA4FaMjVBl/CxecaN0KWs9Bjz0Ocpsq9ht/54gRAAAAAAOgAAAAAIAACAAAAAFhpNolLh25/MqIcJJP28fU56Zg2HFpRUXJf+rcbqcHiAAAACrT9EDmuA+xoJv7diRN85YJcVSicIMUkqeAFqj6qfsnUAAAAAY3u75E0RmtbuZbS9sUl1sOGuzsXeRJb+389NcZLwr3R3fa0V/DNDHc5MdQZ+hXhDq1rM5XurPJH0ZcUDZDnm6</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqeJUbC8LZ0KU9DBioXLbfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADycNNE+ifj2VrO9vhAtVpTTjt2aXA2tNXsHyzCjsbwZgAAAAAOgAAAAAIAACAAAADAlOpyBLcrWF4D7x0M3iuHi2QLg3BmmLTh39c55r2s4iAAAABVVqC0z6uCR1yLPQMgF7FFkzxxuMP0rQg9UnYL7Gyj80AAAACSJKKCgXBb89lk7bxPIC5KKtr6vQiSCQjCra6n+P3HYvJuDLYyHv2dAhZGMHLn7ssRoNBKwXXKVkuCH/hy8st0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -52,7 +62,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqeJUbC8LZ0KU9DBioXLbfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACaSoIS/H+l2vWko/LR5D1DttOsoYKu32+I9uDiw8FGJQAAAAAOgAAAAAIAACAAAABGJ5Ev8n23tIHL/3cv3iJrbt3rJaKuwOEZN8thJRwmkCAAAAA6Q5Ja1vXWAkQc+pqrj8kB/D5tTT4hzyx9Kb1AV0G+oEAAAAAzU3mdVmUxzr1QDYQYziroBvo1WeC2I6N7nkIV9fo3bfGTtS93dl9juJqWAZ2ldaUuZwhD7tTbLkHxzSFJW2sD</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqeJUbC8LZ0KU9DBioXLbfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADDzZw7w9Ex38slW6tXPoavHpZj+RyMv/MeoptlR8q+KgAAAAAOgAAAAAIAACAAAACinKwQU+SJk0SeIDl5BbJ7KlJr9ud1Hg3us0GmldHZbSAAAACw7fNJdVnB/2Ih51PxcYn3+i3u2icaCPkO+kE5fUzQh0AAAAD76l3F5netSE8VBEkEnnlnmlmqNE3S9UJpYbV6NBTvK6sKQAvpxJxDUrdW7FwQziIEd/n7kmyKbVyiDiPn0cs3</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -619,7 +629,7 @@ ON P.Id_pv = Ext.Id_pv</property>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{6CF74455-7725-484A-AACD-4AF7147D2787}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="dboPolizas.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="dbo.Polizas.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -694,7 +704,7 @@ ON P.Id_pv = Ext.Id_pv</property>
     design-time-name="Package\Polizas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="183,42"
           Id="Package\Polizas\Destino de ADO NET"
@@ -734,9 +744,7 @@ ON P.Id_pv = Ext.Id_pv</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
